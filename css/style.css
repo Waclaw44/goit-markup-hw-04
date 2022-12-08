@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  font-style: normal;
+  width: 1200px;
+}
+
+.WebStudio {
+  font-family: 'Raleway';
+  color: #212121;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.19;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+}
+
+.WebStudioAdress {
+  font-family: 'Raleway';
+  color: #212121;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.19;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  padding-top: 60px;
+}
+
+.wstudio {
+  color: #2196f3;
+}
+
+.linkRest {
+  color: #212121;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  padding: 0;
+  height: auto;
+  margin-right: 46px;
+}
+
+.headerTop {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.linkRestKo {
+  color: #212121;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  padding: 0;
+}
+
+.viceVersa :hover {
+  color: #2196f3;
+}
+
+.viceVersa :focus {
+  background-color: #2196f3;
+  outline: none;
+}
+
+.email:hover {
+  color: #2196f3;
+}
+
+.tel:hover {
+  color: #2196f3;
+}
+
+.email-telAdress:hover {
+  color: #2196f3;
+}
+
+.email-tel:focus {
+  background-color: #2196f3;
+  outline: none;
+}
+
+.email {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02rem;
+  color: #757575;
+  text-decoration: none;
+  font-style: normal;
+  margin-left: 364px;
+}
+
+.tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02rem;
+  color: #757575;
+  text-decoration: none;
+  font-style: normal;
+  margin-left: 50px;
+}
+
+.email-telAdress {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02rem;
+  color: #757575;
+  text-decoration: none;
+  font-style: normal;
+  display: block;
+  margin-bottom: 9px;
+}
+
+.top {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 200px;
+  align-items: center;
+  max-width: 700px;
+  margin-left: 250px;
+}
+
+.flexTop {
+  background: #2f303a;
+  height: 600px;
+  margin-top: 25px;
+  align-items: center;
+  text-align: center;
+}
+
+.botoonIndex {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06rem;
+  border: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #ffffff;
+  background: #2196f3;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-top: 40px;
+}
+
+.botoonIndex:hover {
+  color: #020202;
+  background: #f5f4fa;
+}
+
+.botoonIndex:focus {
+  background-color: #2196f3;
+  outline: none;
+}
+
+.articleTitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.articleTitleTxt {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.resthHtwo {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
+  padding-top: 94px;
+}
+
+.resthHtwoImg {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 94px;
+}
+
+.personName {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.personNameTxt {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.fiveButton {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  border: 4px;
+  background: #f5f4fa;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 121px;
+  height: 38px;
+  color: #212121;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.buttons {
+  padding: 25px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding-top: 94px;
+}
+
+.fiveButtonOne:hover {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+.fiveButton:hover {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+.fiveButton:focus {
+  background-color: #2196f3;
+  outline: none;
+}
+
+.graf {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.11;
+  letter-spacing: 0.06em;
+  margin-left: 24px;
+  margin-top: 20px;
+}
+
+.grafTxt {
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+  margin-left: 24px;
+}
+
+.addres {
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 9px;
+  margin-top: 20px;
+  font-style: normal;
+}
+
+.flexPerson {
+  height: 648px;
+  background: #f5f4fa;
+  margin-top: 94px;
+}
+
+.flexAdress {
+  height: 252px;
+  background: #2f303a;
+}
+
+.flexArticleTitle {
+  display: flex;
+  gap: 30px;
+  margin-top: 94px;
+  width: 1170px;
+  height: 101px;
+}
+
+.flexImageOneIndex {
+  display: flex;
+  margin: 30px;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.flexWstdioTop {
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 24px;
+}
+
+.flexWstdioTopIndex {
+  align-items: center;
+}
+
+.flexImgPersonOne {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.ImgTxtPerson {
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.flexGraf {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.flexGrafthre {
+  margin-bottom: 94px;
+  margin-top: 30px;
+}
+
+.borderImgPortfolio {
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.addresColor {
+  background: #2f303a;
+  height: 252px;
+}
+
+.wStudioAdres {
+  color: #ffffff;
+}
