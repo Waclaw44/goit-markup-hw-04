@@ -209,7 +209,6 @@ a {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-top: 94px;
 }
 
 .personName {
@@ -338,7 +337,7 @@ a {
 
 .ImgTxtPerson {
   width: 270px;
-  height: 368px;
+  height: 428px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -364,6 +363,11 @@ a {
   border: 1px solid #eeeeee;
 }
 
+.borderImgPortfolio:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .addresColor {
   background: #2f303a;
   height: 252px;
@@ -371,4 +375,11 @@ a {
 
 .wStudioAdres {
   color: #ffffff;
+}
+.svgTop {
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
 }
