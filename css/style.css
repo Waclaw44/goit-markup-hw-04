@@ -308,6 +308,7 @@ a {
   height: 648px;
   background: #f5f4fa;
   margin-top: 94px;
+  height: 708px;
 }
 
 .flexAdress {
@@ -381,8 +382,21 @@ a {
 .addresColor {
   background: #2f303a;
   height: 252px;
+  margin-top: 94px;
 }
 
 .wStudioAdres {
   color: #ffffff;
 }
+
+.partners {
+  text-align: center;
+  margin-top: 94px;
+}
+
+.svgPartners {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
