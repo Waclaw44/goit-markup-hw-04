@@ -406,3 +406,23 @@ a {
   margin-left: 20px;
   margin-top: 16px;
 }
+
+.topImg {
+  background-image: url ('images/services/pictrueindextop.jpg');
+  width: 1600px;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+.svgPoneH:hover {
+  fill: #2196f3;
+}
+
+.botomNew {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  margin-left: 171px;
+}
