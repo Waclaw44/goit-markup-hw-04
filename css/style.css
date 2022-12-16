@@ -154,7 +154,7 @@ a {
 }
 
 .flexTop {
-  background: #2f303a;
+  background-color: #2f303a;
   height: 600px;
   margin-top: 25px;
   align-items: center;
@@ -321,7 +321,6 @@ a {
   gap: 30px;
   margin-top: 94px;
   width: 1170px;
-  height: 101px;
 }
 
 .flexImageOneIndex {
@@ -407,13 +406,6 @@ a {
   margin-top: 16px;
 }
 
-.topImg {
-  background-image: url ('images/services/pictrueindextop.jpg');
-  width: 1600px;
-  height: 600px;
-  background-repeat: no-repeat;
-}
-
 .svgPoneH:hover {
   fill: #2196f3;
 }
@@ -426,3 +418,30 @@ a {
   letter-spacing: 0.03em;
   margin-left: 171px;
 }
+
+.svgcolor {
+  fill: #afb1b8;
+}
+
+.svgcolorStreeInex {
+  fill: #afb1b8;
+}
+
+.borderSvgSTreeIndex {
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.svgcolorStreeInex:hover {
+  fill: #2196f3;
+}
+
+.borderAticle {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
