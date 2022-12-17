@@ -1,15 +1,15 @@
 * {
   margin: 0;
   padding: 0;
-  justify-content: center;
 }
 
-ul {
-  list-style-type: none;
+ul,
+ol {
+  list-style: none;
 }
-
-a {
+​a {
   text-decoration: none;
+  color: inherit;
 }
 .container {
   font-family: 'Roboto', sans-serif;
@@ -19,13 +19,13 @@ a {
 }
 
 .WebStudio {
+  display: block;
   font-family: 'Raleway';
   color: #212121;
   text-decoration: none;
   font-weight: 700;
   line-height: 1.19;
-  font-size: 26px;
-  letter-spacing: 0.03em;
+  font-size: 1.625rem;
   margin-right: 93px;
 }
 
@@ -44,16 +44,34 @@ a {
   color: #2196f3;
 }
 
+.navigation {
+  flex: 1;
+  margin-left: 24px;
+}
+
+.navigation__list {
+  display: flex;
+  gap: 24px;
+}
+
 .linkRest {
   color: #212121;
-  text-decoration: none;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding: 0;
   height: auto;
+  text-decoration: none;
   margin-right: 46px;
+}
+
+.linkRest:hover {
+  color: #2196f3;
+}
+
+.contact__list {
+  display: flex;
+  gap: 24px;
 }
 
 .headerTop {
@@ -72,20 +90,12 @@ a {
   padding: 0;
 }
 
-.viceVersa :hover {
-  color: #2196f3;
+.tel:hover .eamiTopSvg,
+.email:hover .telTopSvg {
+  fill: #2196f3;
 }
-
-.viceVersa :focus {
-  background-color: #2196f3;
-  outline: none;
-}
-
+.tel:hover,
 .email:hover {
-  color: #2196f3;
-}
-
-.tel:hover {
   color: #2196f3;
 }
 
@@ -118,8 +128,16 @@ a {
   font-style: normal;
 }
 
+.tel,
+.email {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .telTopSvg {
-  margin-left: 345px;
+  transform: translateY(20%);
+  margin-left: 30px;
   margin-right: 10px;
 }
 
@@ -154,7 +172,7 @@ a {
 }
 
 .flexTop {
-  background-color: #2f303a;
+  background: #2f303a;
   height: 600px;
   margin-top: 25px;
   align-items: center;
@@ -391,6 +409,7 @@ a {
 .partners {
   text-align: center;
   margin-top: 94px;
+  background-image: url();
 }
 
 .svgPartners {
@@ -407,9 +426,30 @@ a {
 }
 
 .svgPoneH:hover {
-  fill: #2196f3;
+  fill: #ffffff;
+  background-color: #2196f3;
+}
+.svgcolorTop {
+  fill: #afb1b8;
 }
 
+.svgcolorTop:hover {
+  fill: #2196f3;
+}
+.svgcolor {
+  fill: #afb1b8;
+}
+.svgcolor:hover {
+  fill: #ffffff;
+}
+
+.cyrcleColor {
+  fill: #ffffff;
+}
+
+.cyrcleColor:hover {
+  fill: #2196f3;
+}
 .botomNew {
   color: #ffffff;
   font-weight: 700;
@@ -417,10 +457,6 @@ a {
   line-height: 16px;
   letter-spacing: 0.03em;
   margin-left: 171px;
-}
-
-.svgcolor {
-  fill: #afb1b8;
 }
 
 .svgcolorStreeInex {
@@ -432,8 +468,7 @@ a {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-
-.svgcolorStreeInex:hover {
+.borderSvgSTreeIndex:hover {
   fill: #2196f3;
 }
 
@@ -444,4 +479,15 @@ a {
   border-radius: 4px;
   margin-bottom: 30px;
 }
+.flexadresSvg {
+  display: flex;
+}
 
+.cyrcleMargin {
+  margin-top: 16px;
+}
+.flexSvgIcon {
+  display: flex;
+  gap: 10px;
+  margin-left: 32px;
+}

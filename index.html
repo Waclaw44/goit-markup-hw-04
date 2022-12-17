@@ -24,25 +24,48 @@
     <a href="portfolio.html"></a>
     <header class="flexWstdioTopIndex">
       <div class="container headerTop">
-        <nav>
-          <a class="WebStudio" href="index.html"><span class="wstudio">Web</span>Studio</a>
-          <a class="linkRest" href="#">Agencja</a>
-          <a class="linkRest" href="portfolio.html">Portfolio</a>
-          <a class="linkRestKo" href="#">Kontakt</a>
+        <a class="WebStudio" href="index.html"><span class="wstudio">Web</span>Studio</a>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="list__item">
+              <a class="linkRest" href="#">Agencja</a>
+            </li>
+            <li>
+              <a class="linkRest" href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="linkRest" href="#">Kontakt</a>
+            </li>
+          </ul>
         </nav>
-        <svg class="telTopSvg" width="16" height="16">
-          <use class="svgcolor" href="images/icons.svg#icon-envelope" width="16" height="12 "></use>
-        </svg>
-        <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <svg class="eamiTopSvg" width="16" height="16">
-          <use
-            class="svgcolor"
-            href="images/icons.svg#icon-smartphone"
-            width="10"
-            height="16"
-          ></use>
-        </svg>
-        <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
+        <ul class="contact__list">
+          <li>
+            <a class="email" href="mailto:info@devstudio.com">
+              <svg class="telTopSvg" width="16" height="20">
+                <use
+                  class="svgcolorTop"
+                  href="images/icons.svg#icon-envelope"
+                  width="16"
+                  height="12 "
+                ></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a class="tel" href="tel:+48111111111">
+              <svg class="eamiTopSvg" width="16" height="16">
+                <use
+                  class="svgcolorTop"
+                  href="images/icons.svg#icon-smartphone"
+                  width="16"
+                  height="16"
+                ></use>
+              </svg>
+              +48 111 111 111
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -134,332 +157,220 @@
               <img src="images/team/personone.jpg" alt="Krzysztof" width="270" height="260" />
               <div class="personName">John Doe</div>
               <div class="personNameTxt">Product Designer</div>
-              <div class="svgPone">
-                <svg>
-                  <circle
-                    class="svgPoneH"
-                    r="20"
-                    cx="22"
-                    cy="22"
-                    width="44"
-                    height="44"
-                    fill="#FFFFFF"
-                  />
-                  <use
-                    class="svgcolor"
-                    href="images/icons.svg#icon-instagram-2"
-                    width="20"
-                    height="20"
-                    y="12"
-                    x="12"
-                  ></use>
-                </svg>
-                <svg>
-                  <circle
-                    class="svgPoneH"
-                    r="20"
-                    cx="22"
-                    cy="22"
-                    width="44"
-                    height="44"
-                    fill="#FFFFFF"
-                  />
-                  <use
-                    class="svgcolor"
-                    href="images/icons.svg#icon-twitter-1"
-                    width="20"
-                    height="20"
-                    y="13.88"
-                    x="12"
-                  ></use>
-                </svg>
-                <svg>
-                  <circle
-                    class="svgPoneH"
-                    r="20"
-                    cx="22"
-                    cy="22"
-                    width="44"
-                    height="44"
-                    fill="#FFFFFF"
-                  />
-                  <use
-                    class="svgcolor"
-                    href="images/icons.svg#icon-facebook-1"
-                    width="20"
-                    height="20"
-                    y="12"
-                    x="12"
-                  ></use>
-                </svg>
-                <svg>
-                  <circle
-                    class="svgPoneH"
-                    r="20"
-                    cx="22"
-                    cy="22"
-                    width="44"
-                    height="44"
-                    fill="#FFFFFF"
-                  />
-                  <use
-                    class="svgcolor"
-                    href="images/icons.svg#icon-linkedin-1"
-                    width="20"
-                    height="20"
-                    y="12"
-                    x="12.3"
-                  ></use>
-                </svg>
+              <div class="flexSvgIcon cyrcleMargin svgcolor">
+                <a>
+                  <svg width="44" height="44">
+                    <circle class="cyrcleColor" r="22" cx="22" cy="22" />
+                    <use
+                      href="images/icons.svg#icon-instagram-2"
+                      width="20"
+                      height="20"
+                      y="12"
+                      x="12"
+                    ></use>
+                  </svg>
+                </a>
+                <a>
+                  <svg width="44" height="44">
+                    <circle class="cyrcleColor" r="22" cx="22" cy="22" />
+                    <use
+                      href="images/icons.svg#icon-twitter-1"
+                      width="20"
+                      height="20"
+                      y="12"
+                      x="12"
+                    ></use>
+                  </svg>
+                </a>
+                <a>
+                  <svg width="44" height="44">
+                    <circle class="cyrcleColor" r="22" cx="22" cy="22" />
+                    <use
+                      href="images/icons.svg#icon-facebook-1"
+                      width="20"
+                      height="20"
+                      y="12"
+                      x="12"
+                    ></use>
+                  </svg>
+                </a>
+                <a>
+                  <svg width="44" height="44">
+                    <circle class="cyrcleColor" r="22" cx="22" cy="22" />
+                    <use
+                      href="images/icons.svg#icon-linkedin-1"
+                      width="20"
+                      height="20"
+                      y="12"
+                      x="12"
+                    ></use>
+                  </svg>
+                </a>
               </div>
             </li>
             <li class="ImgTxtPerson">
               <img src="images/team/persontwo.jpg" alt="Magda" width="270" height="260" />
               <div class="personName">John Doe</div>
               <div class="personNameTxt">Frontend Developer</div>
-              <div class="svgPone">
-                <svg>
-                  <circle
-                    class="svgPoneH"
-                    r="20"
-                    cx="22"
-                    cy="22"
-                    width="44"
-                    height="44"
-                    fill="#FFFFFF"
-                  />
-                  <use
-                    class="svgcolor"
-                    href="images/icons.svg#icon-instagram-2"
-                    width="20"
-                    height="20"
-                    y="12"
-                    x="12"
-                  ></use>
-                </svg>
-                <svg>
-                  <circle
-                    class="svgPoneH"
-                    r="20"
-                    cx="22"
-                    cy="22"
-                    width="44"
-                    height="44"
-                    fill="#FFFFFF"
-                  />
-                  <use
-                    class="svgcolor"
-                    href="images/icons.svg#icon-twitter-1"
-                    width="20"
-                    height="20"
-                    y="13.88"
-                    x="12"
-                  ></use>
-                </svg>
-                <svg>
-                  <circle
-                    class="svgPoneH"
-                    r="20"
-                    cx="22"
-                    cy="22"
-                    width="44"
-                    height="44"
-                    fill="#FFFFFF"
-                  />
-                  <use
-                    class="svgcolor"
-                    href="images/icons.svg#icon-facebook-1"
-                    width="20"
-                    height="20"
-                    y="12"
-                    x="12"
-                  ></use>
-                </svg>
-                <svg>
-                  <circle
-                    class="svgPoneH"
-                    r="20"
-                    cx="22"
-                    cy="22"
-                    width="44"
-                    height="44"
-                    fill="#FFFFFF"
-                  />
-                  <use
-                    class="svgcolor"
-                    href="images/icons.svg#icon-linkedin-1"
-                    width="20"
-                    height="20"
-                    y="12"
-                    x="12.3"
-                  ></use>
-                </svg>
+              <div class="flexSvgIcon cyrcleMargin svgcolor">
+                <a>
+                  <svg width="44" height="44">
+                    <circle class="cyrcleColor" r="22" cx="22" cy="22" />
+                    <use
+                      href="images/icons.svg#icon-instagram-2"
+                      width="20"
+                      height="20"
+                      y="12"
+                      x="12"
+                    ></use>
+                  </svg>
+                </a>
+                <a>
+                  <svg width="44" height="44">
+                    <circle class="cyrcleColor" r="22" cx="22" cy="22" />
+                    <use
+                      href="images/icons.svg#icon-twitter-1"
+                      width="20"
+                      height="20"
+                      y="12"
+                      x="12"
+                    ></use>
+                  </svg>
+                </a>
+                <a>
+                  <svg width="44" height="44">
+                    <circle class="cyrcleColor" r="22" cx="22" cy="22" />
+                    <use
+                      href="images/icons.svg#icon-facebook-1"
+                      width="20"
+                      height="20"
+                      y="12"
+                      x="12"
+                    ></use>
+                  </svg>
+                </a>
+                <a>
+                  <svg width="44" height="44">
+                    <circle class="cyrcleColor" r="22" cx="22" cy="22" />
+                    <use
+                      href="images/icons.svg#icon-linkedin-1"
+                      width="20"
+                      height="20"
+                      y="12"
+                      x="12"
+                    ></use>
+                  </svg>
+                </a>
               </div>
             </li>
             <li class="ImgTxtPerson">
               <img src="images/team/personthre.jpg" alt="Maciek" width="270" height="260" />
               <div class="personName">John Doe</div>
               <div class="personNameTxt">Marketing</div>
-              <div class="svgPone">
-                <svg>
-                  <circle
-                    class="svgPoneH"
-                    r="20"
-                    cx="22"
-                    cy="22"
-                    width="44"
-                    height="44"
-                    fill="#FFFFFF"
-                  />
-                  <use
-                    class="svgcolor"
-                    href="images/icons.svg#icon-instagram-2"
-                    width="20"
-                    height="20"
-                    y="12"
-                    x="12"
-                  ></use>
-                </svg>
-                <svg>
-                  <circle
-                    class="svgPoneH"
-                    r="20"
-                    cx="22"
-                    cy="22"
-                    width="44"
-                    height="44"
-                    fill="#FFFFFF"
-                  />
-                  <use
-                    class="svgcolor"
-                    href="images/icons.svg#icon-twitter-1"
-                    width="20"
-                    height="20"
-                    y="13.88"
-                    x="12"
-                  ></use>
-                </svg>
-                <svg>
-                  <circle
-                    class="svgPoneH"
-                    r="20"
-                    cx="22"
-                    cy="22"
-                    width="44"
-                    height="44"
-                    fill="#FFFFFF"
-                  />
-                  <use
-                    class="svgcolor"
-                    href="images/icons.svg#icon-facebook-1"
-                    width="20"
-                    height="20"
-                    y="12"
-                    x="12"
-                  ></use>
-                </svg>
-                <svg>
-                  <circle
-                    class="svgPoneH"
-                    r="20"
-                    cx="22"
-                    cy="22"
-                    width="44"
-                    height="44"
-                    fill="#FFFFFF"
-                  />
-                  <use
-                    class="svgcolor"
-                    href="images/icons.svg#icon-linkedin-1"
-                    width="20"
-                    height="20"
-                    y="12"
-                    x="12.3"
-                  ></use>
-                </svg>
+              <div class="flexSvgIcon cyrcleMargin svgcolor">
+                <a>
+                  <svg width="44" height="44">
+                    <circle class="cyrcleColor" r="22" cx="22" cy="22" />
+                    <use
+                      href="images/icons.svg#icon-instagram-2"
+                      width="20"
+                      height="20"
+                      y="12"
+                      x="12"
+                    ></use>
+                  </svg>
+                </a>
+                <a>
+                  <svg width="44" height="44">
+                    <circle class="cyrcleColor" r="22" cx="22" cy="22" />
+                    <use
+                      href="images/icons.svg#icon-twitter-1"
+                      width="20"
+                      height="20"
+                      y="12"
+                      x="12"
+                    ></use>
+                  </svg>
+                </a>
+                <a>
+                  <svg width="44" height="44">
+                    <circle class="cyrcleColor" r="22" cx="22" cy="22" />
+                    <use
+                      href="images/icons.svg#icon-facebook-1"
+                      width="20"
+                      height="20"
+                      y="12"
+                      x="12"
+                    ></use>
+                  </svg>
+                </a>
+                <a>
+                  <svg width="44" height="44">
+                    <circle class="cyrcleColor" r="22" cx="22" cy="22" />
+                    <use
+                      href="images/icons.svg#icon-linkedin-1"
+                      width="20"
+                      height="20"
+                      y="12"
+                      x="12"
+                    ></use>
+                  </svg>
+                </a>
               </div>
             </li>
             <li class="ImgTxtPerson">
               <img src="images/team/personfour.jpg" alt="Kuba" width="270" height="260" />
               <div class="personName">John Doe</div>
               <div class="personNameTxt">UI Designer</div>
-              <div class="svgPone">
-                <svg>
-                  <circle
-                    class="svgPoneH"
-                    r="22"
-                    cx="22"
-                    cy="22"
-                    width="44"
-                    height="44"
-                    fill="#FFFFFF"
-                  />
-                  <use
-                    class="svgcolor"
-                    href="images/icons.svg#icon-instagram-2"
-                    width="20"
-                    height="20"
-                    y="12"
-                    x="12"
-                  ></use>
-                </svg>
-                <svg>
-                  <circle
-                    class="svgPoneH"
-                    r="22"
-                    cx="22"
-                    cy="22"
-                    width="44"
-                    height="44"
-                    fill="#FFFFFF"
-                  />
-                  <use
-                    class="svgcolor"
-                    href="images/icons.svg#icon-twitter-1"
-                    width="20"
-                    height="20"
-                    y="13.88"
-                    x="12"
-                  ></use>
-                </svg>
-                <svg>
-                  <circle
-                    class="svgPoneH"
-                    r="22"
-                    cx="22"
-                    cy="22"
-                    width="44"
-                    height="44"
-                    fill="#FFFFFF"
-                  />
-                  <use
-                    class="svgcolor"
-                    href="images/icons.svg#icon-facebook-1"
-                    width="20"
-                    height="20"
-                    y="12"
-                    x="12"
-                  ></use>
-                </svg>
-                <svg>
-                  <circle
-                    class="svgPoneH"
-                    r="22"
-                    cx="22"
-                    cy="22"
-                    width="44"
-                    height="44"
-                    fill="#FFFFFF"
-                  />
-                  <use
-                    class="svgcolor"
-                    href="images/icons.svg#icon-linkedin-1"
-                    width="20"
-                    height="20"
-                    y="12"
-                    x="12.3"
-                  ></use>
-                </svg>
+              <div class="flexSvgIcon cyrcleMargin svgcolor">
+                <a>
+                  <svg width="44" height="44">
+                    <circle class="cyrcleColor" r="22" cx="22" cy="22" />
+                    <use
+                      href="images/icons.svg#icon-instagram-2"
+                      width="20"
+                      height="20"
+                      y="12"
+                      x="12"
+                    ></use>
+                  </svg>
+                </a>
+                <a>
+                  <svg width="44" height="44">
+                    <circle class="cyrcleColor" r="22" cx="22" cy="22" />
+                    <use
+                      href="images/icons.svg#icon-twitter-1"
+                      width="20"
+                      height="20"
+                      y="12"
+                      x="12"
+                    ></use>
+                  </svg>
+                </a>
+                <a>
+                  <svg width="44" height="44">
+                    <circle class="cyrcleColor" r="22" cx="22" cy="22" />
+                    <use
+                      href="images/icons.svg#icon-facebook-1"
+                      width="20"
+                      height="20"
+                      y="12"
+                      x="12"
+                    ></use>
+                  </svg>
+                </a>
+                <a>
+                  <svg width="44" height="44">
+                    <circle class="cyrcleColor" r="22" cx="22" cy="22" f />
+                    <use
+                      href="images/icons.svg#icon-linkedin-1"
+                      width="20"
+                      height="20"
+                      y="12"
+                      x="12"
+                    ></use>
+                  </svg>
+                </a>
               </div>
             </li>
           </ul>
@@ -468,9 +379,8 @@
       <section class="container">
         <h2 class="partners">Nasi klienci</h2>
         <ul class="svgPartners">
-          <svg class="borderSvgSTreeIndex">
+          <svg class="borderSvgSTreeIndex svgcolorStreeInex">
             <use
-              class="svgcolorStreeInex"
               href="images/icons.svg#icon-Logo"
               width="106"
               height="60.04"
@@ -478,9 +388,8 @@
               x="32"
             ></use>
           </svg>
-          <svg class="borderSvgSTreeIndex">
+          <svg class="borderSvgSTreeIndex svgcolorStreeInex">
             <use
-              class="svgcolorStreeInex"
               href="images/icons.svg#icon-Logo-1"
               width="106"
               height="60.04"
@@ -488,45 +397,17 @@
               x="32"
             ></use>
           </svg>
-          <svg class="borderSvgSTreeIndex">
-            <use
-              class="svgcolorStreeInex"
-              href="images/icons.svg#icon-Logo-2"
-              width="106"
-              height="60.04"
-              y="16"
-              x="32"
-            ></use>
+          <svg class="borderSvgSTreeIndex svgcolorStreeInex">
+            <use href="images/icons.svg#icon-Logo-2" width="106" height="60.04" y="16" x="32"></use>
           </svg>
-          <svg class="borderSvgSTreeIndex">
-            <use
-              class="svgcolorStreeInex"
-              href="images/icons.svg#icon-Logo-3"
-              width="106"
-              height="60.04"
-              y="16"
-              x="32"
-            ></use>
+          <svg class="borderSvgSTreeIndex svgcolorStreeInex">
+            <use href="images/icons.svg#icon-Logo-3" width="106" height="60.04" y="16" x="32"></use>
           </svg>
-          <svg class="borderSvgSTreeIndex">
-            <use
-              class="svgcolorStreeInex"
-              href="images/icons.svg#icon-Logo-5"
-              width="106"
-              height="60.04"
-              y="16"
-              x="32"
-            ></use>
+          <svg class="borderSvgSTreeIndex svgcolorStreeInex">
+            <use href="images/icons.svg#icon-Logo-5" width="106" height="60.04" y="16" x="32"></use>
           </svg>
-          <svg class="borderSvgSTreeIndex">
-            <use
-              class="svgcolorStreeInex"
-              href="images/icons.svg#icon-Logo-4"
-              width="106"
-              height="60.04"
-              y="16"
-              x="32"
-            ></use>
+          <svg class="borderSvgSTreeIndex svgcolorStreeInex">
+            <use href="images/icons.svg#icon-Logo-4" width="106" height="60.04" y="16" x="32"></use>
           </svg>
         </ul>
       </section>
