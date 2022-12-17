@@ -438,6 +438,7 @@ ol {
 }
 .svgcolor {
   fill: #afb1b8;
+  cursor: pointer;
 }
 .svgcolor:hover {
   fill: #ffffff;
@@ -445,11 +446,13 @@ ol {
 
 .cyrcleColor {
   fill: #ffffff;
+  cursor: pointer;
 }
 
 .cyrcleColor:hover {
   fill: #2196f3;
 }
+
 .botomNew {
   color: #ffffff;
   font-weight: 700;
@@ -467,6 +470,7 @@ ol {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  cursor: pointer;
 }
 .borderSvgSTreeIndex:hover {
   fill: #2196f3;
