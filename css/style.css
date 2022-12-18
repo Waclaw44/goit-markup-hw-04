@@ -172,7 +172,6 @@ ol {
 }
 
 .flexTop {
-  background: #2f303a;
   height: 600px;
   margin-top: 25px;
   align-items: center;
@@ -494,4 +493,46 @@ ol {
   display: flex;
   gap: 10px;
   margin-left: 32px;
+}
+
+.borderTop {
+  max-width: 1600px;
+  background-image: url('../images/services/pictrueindextop.jpg'),
+    linear-gradient(90deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 0%);
+  background-size: 1600px;
+  background-position: center;
+  background-color: var(--color-h1);
+  color: var(--color-white);
+  text-align: center;
+  margin: 0 auto;
+  height: 600px;
+}
+
+.smIcons {
+  fill: #ffffff;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+.botomIcons {
+  display: flex;
+  gap: 10px;
+}
+
+.botomIconsName {
+  color: #ffffff;
+  margin-top: 72px;
+  margin-bottom: 20px;
+}
+
+.flexAdres {
+  display: flex;
+}
+
+.cyrcleColorAdress {
+  fill: rgba(255, 255, 255, 0.1);
+}
+.cyrcleColorAdress:hover {
+  fill: #2196f3;
 }
