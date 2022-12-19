@@ -90,8 +90,8 @@ ol {
   padding: 0;
 }
 
-.tel:hover .eamiTopSvg,
-.email:hover .telTopSvg {
+.tel:hover .eamiTopSvg .svgcolorTop,
+.email:hover .telTopSvg .svgcolorTop {
   fill: #2196f3;
 }
 .tel:hover,
@@ -443,15 +443,6 @@ ol {
   fill: #ffffff;
 }
 
-.cyrcleColor {
-  fill: #ffffff;
-  cursor: pointer;
-}
-
-.cyrcleColor:hover {
-  fill: #2196f3;
-}
-
 .botomNew {
   color: #ffffff;
   font-weight: 700;
@@ -473,6 +464,7 @@ ol {
 }
 .borderSvgSTreeIndex:hover {
   fill: #2196f3;
+  border: 1px solid #2196f3;
 }
 
 .borderAticle {
@@ -492,7 +484,27 @@ ol {
 .flexSvgIcon {
   display: flex;
   gap: 10px;
-  margin-left: 32px;
+  justify-content: center;
+}
+
+.borderSvg {
+  background-color: #ffffff;
+  margin-top: 16px;
+  border: 1px;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  fill: #afb1b8;
+}
+
+.borderSvg:hover {
+  background-color: #2196f3;
+  fill: white;
+}
+.margines {
+  margin-top: 12px;
+  margin-left: 12px;
 }
 
 .borderTop {
@@ -501,18 +513,18 @@ ol {
     linear-gradient(90deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 0%);
   background-size: 1600px;
   background-position: center;
-  background-color: var(--color-h1);
-  color: var(--color-white);
   text-align: center;
   margin: 0 auto;
   height: 600px;
 }
 
 .smIcons {
-  fill: #ffffff;
   cursor: pointer;
   width: 44px;
   height: 44px;
+  display: flex;
+  gap: 10px;
+  margin-left: 70px;
 }
 
 .botomIcons {
@@ -524,15 +536,39 @@ ol {
   color: #ffffff;
   margin-top: 72px;
   margin-bottom: 20px;
+  margin-left: 70px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.cyrcleColorAdress {
+  fill: rgba(255, 255, 255, 0.1);
+}
+
+.cyrcleColorAdress:hover {
+  fill: #2196f3;
 }
 
 .flexAdres {
   display: flex;
 }
 
-.cyrcleColorAdress {
-  fill: rgba(255, 255, 255, 0.1);
+.borderSvgAdress {
+  background: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
 }
-.cyrcleColorAdress:hover {
-  fill: #2196f3;
+
+.borderSvgAdress:hover {
+  background: #2196f3;
+}
+
+.marginesAdres {
+  margin-top: 12px;
 }
